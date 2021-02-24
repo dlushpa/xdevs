@@ -1,0 +1,102 @@
+.fb {
+  background-image: url("data:image/svg+xml,%3Csvg width='1440' height='738' viewBox='0 0 1440 738' fill='none' xmlns='http://www.w3.org/2000/svg' class='backgrnd'%3E%3Cpath d='M1441 0H0V510.694C390.546 619.807 583.307 470.198 753.464 441.16C1016.03 396.352 1186.69 442.268 1439.5 510.29L1441 510.694V0Z' fill='url(%23paint0_linear)'/%3E%3Cpath d='M535.705 546.646C277.537 617.074 151.916 623.982 -28.9999 581.495C-35.2214 580.034 -41.2773 584.643 -41.4168 591.032L-41.7157 604.724C-41.8243 609.699 -38.1789 614.011 -33.2676 614.809C201.516 652.933 327.25 643.34 535.104 574.165C1025.41 406.353 1261.6 436.479 1593.41 723.442C1599.84 729.006 1610.04 724.707 1610.22 716.203L1610.9 685.188C1610.97 682.075 1609.53 679.064 1607.09 677.123C1269.01 407.502 1039.98 361.098 535.705 546.646Z' fill='url(%23paint1_linear)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='1.16133e-05' y1='47' x2='454.665' y2='905.153' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2335C5D4'/%3E%3Cstop offset='0.900152' stop-color='%2305315B'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint1_linear' x1='-17' y1='597.5' x2='120.11' y2='855.473' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2335C5D4'/%3E%3Cstop offset='0.962938' stop-color='%2305315B'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+  background-size: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  &__languages {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 76px;
+    padding-top: 30px;
+
+    a {
+      margin-right: 8px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+
+  &__inner {
+    margin: 92px 186px 0 75px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  &__left {
+    h3 {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 108px 0 9px;
+    }
+
+    &-fullstack {
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 56px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    &-feedback {
+      margin-top: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 320px;
+
+      &__contact-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 30px rgba(16, 82, 118, 0.5);
+        border-radius: 50px;
+        padding: 3px 20px 3px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #0F5075;
+        text-decoration: none;
+      }
+
+      &__socials {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+
+  &__right {
+    margin: 0 0 0 100px;
+    width: 100%;
+    max-width: 482px;
+  }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+  .fb {
+    background: linear-gradient(125.77deg, #35C5D4 3.58%, #05315B 78.9%);
+  }
+
+}
+
+@media screen and (max-width: 1040px) {
+  .fb {
+    background-size: cover;
+
+  }
+}
