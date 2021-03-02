@@ -1,0 +1,126 @@
+.projects{
+        padding-top: 224px;
+    h1{
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        color: #253238;
+        margin-top: 70px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    h5{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #35C5D4;
+    }
+}
+    .projects__wrapper{
+        display: flex;
+        align-items: center;
+        padding-bottom: 50px;
+        flex-direction: column;
+        
+    }
+
+    .projects__wrapper-inner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1070px;
+        
+    }
+
+    .projects__wrapper-item{
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        max-width: 460px;
+    }
+    .projects__image{
+        width: 77px;
+        height: 67px;
+    }
+    
+    .projects__text-block{
+         margin-left: 30px;
+         padding-bottom: 30px;
+         
+    }
+    .hprojects__heading{
+        margin-top: 0;
+        font-weight: 700;
+        font-size: 20px;
+    }  
+    .projects__paragraph{
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .projects__footer{
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+
+    .projects__footer-item{
+        padding-right: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px; 
+        color: #35C5D4;
+
+    }
+    
+    .projects__arow-link{
+        display: block;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 19px;
+        color: #253238;
+        text-transform: capitalize;
+        text-decoration: none;
+
+        &::after{
+            content: url("../../assets/img/Arrow.png");
+            width: 10px;
+            height: 10px;
+        }
+    }
+
+
+    
+
+    .projects__spoiler-checkbox, .projects__spoiler-content{
+        display: none;
+    }
+
+    .projects__spoiler :checked ~ div {
+        display: block;
+    }
+
+    .projects__spoiler-heading{
+        display: flex;
+        width: 1070px;
+        height: 70px;
+        cursor: pointer;
+        background-color: #F2F4F9;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    
+    .projects__spoiler-content{
+        padding-top: 30px;
+    }
+
+    .projects__spoiler-inner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1070px;
+    }

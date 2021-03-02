@@ -1,10 +1,17 @@
 @import './normalize.scss';
 @import './sections/firstblock.scss';
 @import './sections/skills.scss';
+@import './sections/projects.scss';
+@import './sections/slider.scss';
 
 body{
     font-family: 'Roboto', sans-serif;
-  }
+}
+h4,h6{
+  margin: 0;
+  padding: 0;
+}
+
 
   .container{
     width: 100%;
